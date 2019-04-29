@@ -1,0 +1,21 @@
+{
+  "name": "Sarigyugh",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "gulp",
+    "predeploy": "gulp deploy"
+  },
+  "main": "app/index.html",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-gjslint": "^0.1.5",
+    "gulp-inject": "^4.1.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-jslint": "^0.2.2",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "2.8.0",
+    "opn": "^5.4.0",
+    "ssh2-sftp-client": "^2.5.0"
+  }
+}
